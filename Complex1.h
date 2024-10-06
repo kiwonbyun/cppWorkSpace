@@ -13,5 +13,6 @@ class Complex1{
         }
         Complex1 mul(const Complex1& c) const;
         Complex1 div(const Complex1& c) const;
+        Complex1 operator +(const Complex1& c) const;
         void display() const;
 };

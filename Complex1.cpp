@@ -14,6 +14,10 @@ Complex1 Complex1::div(const Complex1& c) const {
     return Complex1(c1.rPart/d, c1.iPart/d);
 }
 
+Complex1 Complex1::operator +(const Complex1 &c) const {
+    return Complex1(rPart + c.rPart, iPart + c.iPart);
+}
+
 void Complex1::display() const {
     cout << "(" << rPart;
     if(iPart >0){
