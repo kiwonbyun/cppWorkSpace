@@ -1,26 +1,26 @@
-#ifndef COUNTER_H_INCLUDED
-#define COUNTER_H_INCLUDED
+// #ifndef COUNTER_H_INCLUDED
+// #define COUNTER_H_INCLUDED
 
-class Counter{
-    int value;
+// class Counter{
+//     int value;
 
-    public:
-        Counter () : value{0} {}
-        ~Counter () {
-            // 정리작업
-        }
+//     public:
+//         Counter () : value{0} {}
+//         ~Counter () {
+//             // 정리작업
+//         }
 
-        void reset() {
-            value = 0;
-        }
+//         void reset() {
+//             value = 0;
+//         }
 
-        void count() {
-            ++value;
-        }
+//         void count() {
+//             ++value;
+//         }
 
-        int getValue() const {
-            return value;
-        }
-};
+//         int getValue() const {
+//             return value;
+//         }
+// };
 
-#endif
+// #endif
