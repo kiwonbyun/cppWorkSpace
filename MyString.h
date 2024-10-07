@@ -15,7 +15,7 @@ class MyString{
         MyString& operator=(const MyString& mstr);
         MyString& operator=(MyString&& mstr);
         MyString operator+(const MyString& mstr) const;
-        MyString operator+=(const MyString& mstr);
+        MyString& operator+=(const MyString& mstr);
         bool operator==(const MyString& mstr) const;
         bool operator>(const MyString& mstr) const;
         bool operator<(const MyString& mstr) const;
